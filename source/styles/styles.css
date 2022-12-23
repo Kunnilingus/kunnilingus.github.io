@@ -1,0 +1,104 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap); */
+
+body {
+  background: linear-gradient(90deg, #a20000 0%, #000000 100%);
+}
+p{
+  color: #cacaca; 
+}
+
+.nav-link {
+  color: rgb(225, 61, 61);
+}
+.navbar-nav .nav-link.active {
+  color: rgb(241, 168, 168);
+}
+.navbar-brand img {
+  width: 70px;
+}
+.navbar-toggler {
+  background-color: rgb(225, 61, 61);
+}
+.card {
+  box-shadow: 5px 6px 6px 2px #050000;
+  background: linear-gradient(270deg, #a20000 0%, #000000 100%);
+  color: #cacaca;
+}
+.sidebar, .btn-outline-danger {
+  color: #cacaca;
+  background: linear-gradient(270deg, #a20000 0%, #000000 100%);
+}
+.sidebar p a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  border-style: dotted;
+  border-width: 0.3px;
+}
+.btn.btn-primary {
+  background-color: #a20000;
+  border-color: #a20000;
+  color: #000000;
+}
+.card a {
+  text-decoration: none;
+  color: #cacaca;
+}
+.hometext, .footer-text {
+  color: #cacaca;
+  margin: auto auto;
+}
+.carousel-item a {
+  text-decoration: none;
+}
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+footer{
+  margin-top: 200px;
+  border-style: solid;
+  border-bottom: #000000;
+  border-left: #000000;
+  border-right: #000000;
+  
+}
+.media-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anime{
+  animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 100% 50%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
